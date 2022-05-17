@@ -1,0 +1,101 @@
+header nav ul li {
+    display: inline;
+    list-style: none;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 58px;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 0px 25px 0px 40px;
+    font-size: 1.5vw;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgba(247, 243, 243, 0.849);
+}
+
+nav ul li a:hover {
+    font-weight: bolder;
+    color: rgb(236, 166, 37);
+}
+
+.heading1 h1 {
+    text-align: center;
+    font-size: 35px;
+}
+
+.heading1 p {
+    padding: 30px;
+    margin-top: 25px;
+    letter-spacing: 2px;
+    line-height: 40px;
+    /* opacity: 0.7; */
+    font-size: 20px;
+    font-family: cursive;
+}
+
+.heading2 h1 {
+    text-align: center;
+    font-size: 35px;
+}
+
+.heading2 p {
+    padding: 30px;
+    margin-top: 40px;
+    letter-spacing: 2px;
+    line-height: 40px;
+    /* opacity: 0.7; */
+    font-size: 20px;
+    font-family: cursive;
+}
+
+.heading3 h1 {
+    text-align: center;
+    padding-top: 30px;
+    font-size: 35px;
+}
+
+.heading3 h3 {
+    padding-top: 55px;
+    padding-left: 10px;
+}
+
+.heading3 p {
+    padding: 30px;
+    letter-spacing: 2px;
+    line-height: 40px;
+    /* opacity: 0.7; */
+    font-size: 20px;
+    font-family: cursive;
+}
+
+.heading3 ul li {
+    list-style: square;
+    margin-left: 45px;
+}
+
+.heading4 h3 {
+    padding-top: 50px;
+    padding-left: 10px;
+}
+
+.heading4 p {
+    padding: 30px;
+    letter-spacing: 2px;
+    line-height: 40px;
+    /* opacity: 0.7; */
+    font-size: 20px;
+    font-family: cursive;
+}
+
+.heading4 ul li {
+    list-style: square;
+    margin-left: 45px;
+}
